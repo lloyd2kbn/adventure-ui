@@ -1,0 +1,9 @@
+.input-item{
+    outline: none;
+    border: none;
+    height: 80%;
+    width: 100%;
+    font-size: 14px;
+    margin: 0 8px;
+    border-radius: 5px;
+}

@@ -6,17 +6,22 @@
   }
   
   .home,
-  .services,
-  .products,
-  .sign-up {
+  .tours,
+  .about {
     display: flex;
     height: 90vh;
     align-items: center;
     justify-content: center;
     font-size: 3rem;
   }
+  .sign-up{
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+  }
   
-  .services {
+  .tours {
     background-image: url('../public/images/img-2.jpg');
     background-position: center;
     background-size: cover;
@@ -25,7 +30,7 @@
     font-size: 100px;
   }
   
-  .products {
+  .about{
     background-image: url('../public/images/img-6.jpg');
     background-position: center;
     background-size: fill;
@@ -35,10 +40,33 @@
   }
   
   .sign-up {
-    background-image: url('../public/images/img-8.jpg');
+    background-image: url('../public/images/img-3.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
-    font-size: 100px;
+    height: 93vh;
+  }
+  /* Form */
+  .form-container{
+    width: 800px;
+    border: 1px solid white;
+    padding: 50px 10px;
+    max-width: 100%;
+  }
+  .form-heading{
+    text-align: center;
+    font-weight: 100;
+    font-size: 3rem;
+  }
+  .input-container{
+    height: 50px;
+    display: flex;
+    align-items: center;
+  }
+  .forgot-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 8px;
+
   }
