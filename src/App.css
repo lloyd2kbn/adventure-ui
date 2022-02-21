@@ -14,7 +14,7 @@
     justify-content: center;
     font-size: 3rem;
   }
-  .sign-up{
+  .sign-up,.sign-in{
     display: flex;
     height: 90vh;
     align-items: center;
@@ -45,6 +45,14 @@
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
+    height: 93vh;
+  }
+  .sign-in{
+    background-image: url('../public/images/img-9.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
     height: 93vh;
   }
   /* Form */

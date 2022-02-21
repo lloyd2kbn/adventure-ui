@@ -4,6 +4,7 @@ import Home from './components/pages/Home'
 import About from './components/pages/About'
 import Tours from './components/pages/Tours'
 import SignUp from './components/pages/SignUP'
+import SignIn from './components/pages/SignIN'
 import {Button} from './components/Button.js'
 import {BrowserRouter as Router,Switch,Route} from 'react-router-dom'
 import {useState,useEffect} from 'react'
@@ -35,6 +36,7 @@ function App() {
             <Route path='/tours' component={Tours}/>
             <Route path='/about' component={About}/>
             <Route path='/sign-up' component={SignUp}/>
+            <Route path='/sign-in' component={SignIn}/>
         </Switch>
         { scrollTop&&<button style={{position:"fixed",bottom:20,right:20,padding:20,cursor:'pointer'}} onClick={goToTop}>Go to Top</button>}
       </Router>
